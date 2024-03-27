@@ -7,12 +7,12 @@ const routes = [
   {
     path: '/',
     name: 'dataVideo',
-    component: () => import('../views/dataVideo/dataVideo.vue')
+    component: () => import(/* webpackChunkName: "dataVideo" */  '../views/dataVideo/dataVideo.vue')
   },
   {
     path: '/test',
     name: 'test',
-    component: () => import('../views/test/test.vue')
+    component: () => import(/* webpackPrefetch: true */ '../views/test/test.vue')
   },
 ]
 
