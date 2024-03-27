@@ -1,7 +1,6 @@
 <template>
   <div class="header">
     <div class="left">
-      <img class="logo" src="@/assets/icons/logo.png" alt="">
       <span class="title">
         数据模板名称
       </span>
@@ -17,7 +16,7 @@
   </div>
 </template>
 <style lang="scss" scoped>
-.header{
+.header {
   width: 100%;
   height: 60px;
   display: flex;
@@ -25,69 +24,69 @@
   padding: 0 11px;
   box-sizing: border-box;
   background: #313642;
-  .left{
+  .left {
     display: flex;
     align-items: center;
-    .title{
+    .title {
       font-size: 22px;
       font-family: MicrosoftYaHei;
       line-height: 20px;
-      color: #BFC5D3;
+      color: #bfc5d3;
     }
-    .logo{
+    .logo {
       width: 128px;
       height: 46px;
       margin-right: 39px;
     }
   }
-  .right{
+  .right {
     display: flex;
     align-items: center;
-    .bgm{
+    .bgm {
       cursor: pointer;
       font-size: 12px;
       font-family: SimSun;
       line-height: 20px;
-      color: #B0C5F7;
+      color: #b0c5f7;
       width: 95px;
       height: 28px;
-      border: 1px solid #50586B;
+      border: 1px solid #50586b;
       border-radius: 14px;
       display: flex;
       justify-content: center;
       align-items: center;
-      .icon{
+      .icon {
         width: 18px;
         height: 18px;
         background-image: url(~@/assets/icons/bgm.png);
         vertical-align: middle;
         margin-right: 3px;
       }
-      &:hover{
-        border: 1px solid #FC4F08;
-        color: #FC4F08;
-        .icon{
+      &:hover {
+        border: 1px solid #fc4f08;
+        color: #fc4f08;
+        .icon {
           background-image: url(~@/assets/icons/bgm1.png);
         }
       }
     }
-    .fly{
+    .fly {
       cursor: pointer;
       margin-left: 56px;
       width: 32px;
       height: 32px;
       background-image: url(~@/assets/icons/fly.png);
-      &:hover{
+      &:hover {
         background-image: url(~@/assets/icons/fly1.png);
       }
     }
-    .more{
+    .more {
       cursor: pointer;
       margin-left: 32px;
       width: 32px;
       height: 32px;
       background-image: url(~@/assets/icons/more.png);
-      &:hover{
+      &:hover {
         background-image: url(~@/assets/icons/more1.png);
       }
     }
